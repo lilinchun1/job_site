@@ -1,5 +1,119 @@
 @charset "utf-8";
-.a{
-  font-size: 14px;}
-h1{
-  font-size: 20px;}
+
+$font-defult-color:#333;
+$font-hover-color:#1781b7;
+
+a{
+  color: $font-defult-color;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    //width: 1170px;
+    width: 980px;
+  }
+}
+
+
+.top-head{
+  height: 110px;
+}
+.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+.top-head-link{
+  height: 28px;
+  background-color: #1e1b29;
+  text-align:right;
+  line-height: 24px;
+    a{
+      padding: 0 14px;
+      height: 24px;
+      border-right: 1px solid #fff;
+      color: #ffffff;
+      font-size: 12px;
+      &:last-of-type {
+        border-right: 0 none;
+        padding-right: 0;
+      }
+    }
+}
+
+.top-head-nav{
+  height: 82px;
+    ul{
+      margin-top: 19px;
+      margin-left: 35px;
+    }
+    li a{
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 18px;
+    }
+  .active a{
+    color: $font-hover-color;
+  }
+  .top-head-nav-logo{
+    float: left;
+    margin-top: 20px;
+  }
+}
+
+.slide-wrap ol{
+  bottom: 66px;
+    li{
+      width: 14px;
+      height: 14px;
+    }
+  .active{
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.search-wrap{
+  height: 130px;
+  overflow: hidden;
+}
+
+.search-input-wrap{
+  margin-top: 42px;
+  height: 42px;
+  border: 2px solid $font-hover-color;
+  box-sizing: content-box;
+  overflow: hidden;
+    input{
+      height: 42px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: 0 none;
+      outline: 0 none;
+    }
+    input[type = text]{
+      width: 80%;
+      text-indent: 26px;
+      &::-moz-placeholder { color: #369; }
+      &::-webkit-input-placeholder { color:#369; }
+      &:-ms-input-placeholder { color:#369; }
+    }
+    input[type = button]{
+      padding: 0;
+      width: 20%;
+      font-size: 18px;
+      color: #fff;
+      background-color: $font-hover-color;
+    }
+
+}
