@@ -28,10 +28,7 @@ a{
 .top-head{
   height: 110px;
 }
-.container{
-  padding-left: 0;
-  padding-right: 0;
-}
+
 .top-head-link{
   height: 28px;
   background-color: #1e1b29;
@@ -104,9 +101,9 @@ a{
     input[type = text]{
       width: 80%;
       text-indent: 26px;
-      &::-moz-placeholder { color: #369; }
-      &::-webkit-input-placeholder { color:#369; }
-      &:-ms-input-placeholder { color:#369; }
+      &::-moz-placeholder { color: #333; }
+      &::-webkit-input-placeholder { color:#333; }
+      &:-ms-input-placeholder { color:#333; }
     }
     input[type = button]{
       padding: 0;
@@ -116,4 +113,21 @@ a{
       background-color: $font-hover-color;
     }
 
+}
+
+.hot-search{
+  height: 42px;
+  line-height: 42px;
+  overflow: hidden;
+    a{
+      padding-right: 29px;
+    }
+  .active{
+    color: $font-hover-color;
+  }
+}
+
+.tab-wrap{
+  margin-top: 18px;
+  background-color: #fafafa;
 }

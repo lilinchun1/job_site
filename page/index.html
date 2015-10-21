@@ -16,24 +16,28 @@
 <header class="top-head">
     <div class="top-head-link">
         <div class="container">
-            <a href="">登录</a>
-            <a href="">注册</a>
-            <a href="">提建议</a>
-            <a href="">帮助中心</a>
+            <div class="row">
+                <a href="">登录</a>
+                <a href="">注册</a>
+                <a href="">提建议</a>
+                <a href="">帮助中心</a>
+            </div>
         </div>
     </div>
     <nav class="top-head-nav">
         <div class="container">
-            <a class="top-head-nav-logo" href="#">
-                <img alt="招聘" src="../img/logo.png">
-            </a>
-            <ul class="nav navbar-nav">
-                <li role="presentation" class="active"><a href="#">首页</a></li>
-                <li role="presentation"><a href="#">公司</a></li>
-                <li role="presentation"><a href="#">案件</a></li>
-                <li role="presentation"><a href="#">职位</a></li>
-                <li role="presentation"><a href="#">社区</a></li>
-            </ul>
+            <div class="row">
+                <a class="top-head-nav-logo" href="#">
+                    <img alt="招聘" src="../img/logo.png">
+                </a>
+                <ul class="nav navbar-nav">
+                    <li role="presentation" class="active"><a href="#">首页</a></li>
+                    <li role="presentation"><a href="#">公司</a></li>
+                    <li role="presentation"><a href="#">案件</a></li>
+                    <li role="presentation"><a href="#">职位</a></li>
+                    <li role="presentation"><a href="#">社区</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
@@ -81,7 +85,58 @@
 </div>
 <div class="search-wrap">
     <div class="container search-input-wrap">
-        <input type="text" placeholder="请输入关键字"/><input type="button" value="搜索"/>
+        <div class="row">
+            <input type="text" placeholder="请输入关键字"/><input type="button" value="搜索"/>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hot-search">
+            热门搜索：
+            <a href="" class="active">PHP</a>
+            <a href="">C++</a>
+            <a href="" class="active">新媒体运营</a>
+            <a href="">.Net</a>
+            <a href="">产品经理</a>
+            <a href="" class="active">前端开发</a>
+            <a href="">工程师</a>
+            <a href="">项目经理</a>
+            <a href="">设计总监</a>
+            <a href="" class="active">Java</a>
+        </div>
+    </div>
+</div>
+<div class="tab-wrap">
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 <script src="../js/jquery.min.js"></script>
