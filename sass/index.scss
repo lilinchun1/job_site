@@ -74,15 +74,21 @@ a{
   }
 }
 
-.slide-wrap ol{
-  bottom: 66px;
+.slide-wrap{
+  ol{
+    bottom: 66px;
     li{
       width: 14px;
       height: 14px;
     }
-  .active{
-    width: 15px;
-    height: 15px;
+    .active{
+      width: 15px;
+      height: 15px;
+    }
+  }
+  img{
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
