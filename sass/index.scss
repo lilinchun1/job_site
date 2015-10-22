@@ -240,4 +240,39 @@ a{
       color: #f2f2f2;
       text-align: center;
     }
+
+    .container{
+      padding: 40px 0;
+        img{
+          vertical-align: top;
+        }
+    }
+    dl{
+      width: 140px;
+      line-height: 22px;
+      padding-left: 40px;
+      border-left: 1px dotted #dedede;
+      display: inline-block;
+      dt,
+      dd a{
+        color: #ffffff;
+      }
+      dt{
+        font-size: 14px;
+        font-weight: bold;
+      }
+      dd{
+        line-height: 22px;
+      }
+      &:last-of-type{
+        border-right: 1px dotted #dedede;
+      }
+    }
+    .footer-l-logo{
+      margin-right: 14px;
+    }
+    .footer-r-logo{
+      margin-top: 15px;
+      margin-left: 54px;
+    }
 }
